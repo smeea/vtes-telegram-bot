@@ -21,14 +21,18 @@ def get_by_name(cardname):
     for card in crypt:
         if cardname in card['Name'].lower() or cardname in letters_to_ascii(
                 card['Name'].lower()):
-            if card['Adv']:
-                cardimagename = letters_to_ascii(
-                    re.sub('[\\W]', '', card['Name'].lower() + 'adv'))
-                cards.append([card['Name'] + ' [ADV]', cardimagename])
-            else:
-                cardimagename = letters_to_ascii(
-                    re.sub('[\\W]', '', card['Name'].lower()))
-                cards.append([card['Name'], cardimagename])
+            name = card['Name']
+            cardimagename = letters_to_ascii(re.sub('[\\W]', '', card['Name'].lower()))
+            if card['New']:
+                cardimagename += f"g{card['Group']}"
+                name += f" (G{card['Group']})"
+
+            if card['Adv'] and card['Adv'][0]:
+                cardimagename += 'adv'
+                name += ' (ADV)'
+
+            cards.append([name, cardimagename])
+
     for card in library:
         if cardname in card['Name'].lower() or cardname in letters_to_ascii(
                 card['Name'].lower()):
