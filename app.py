@@ -4,7 +4,7 @@ import re
 from search import get_by_name
 
 # Get your bot api token from official telegram bot master: @BotFather
-bot = telebot.TeleBot('1255263754:AAHv6DAy1tuyzAVvUPqf4rYIHx3YUPJ1OC4')
+bot = telebot.TeleBot('API TOKEN')
 
 def show_card(message):
     imagename = './cards/' + cards[0][1] + '.jpg'
