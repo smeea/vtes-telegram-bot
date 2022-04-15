@@ -8,11 +8,11 @@ def letters_to_ascii(text):
                    if unicodedata.category(c) != 'Mn')
 
 
-with open("vtescrypt.json", "r") as crypt_file:
-    crypt = json.load(crypt_file)
+with open("cardbase_crypt.json", "r") as crypt_file:
+    crypt = list(json.load(crypt_file).values())
 
-with open("vteslib.json", "r") as library_file:
-    library = json.load(library_file)
+with open("cardbase_lib.json", "r") as library_file:
+    library = list(json.load(library_file).values())
 
 
 def get_by_name(cardname):
@@ -22,9 +22,8 @@ def get_by_name(cardname):
         if cardname in card['Name'].lower() or cardname in letters_to_ascii(
                 card['Name'].lower()):
             name = card['Name']
-            cardimagename = letters_to_ascii(re.sub('[\\W]', '', card['Name'].lower()))
+            cardimagename = letters_to_ascii(re.sub('[\\W]', '', card['Name'].lower())) + f"g{card['Group']}"
             if card['New']:
-                cardimagename += f"g{card['Group']}"
                 name += f" (G{card['Group']})"
 
             if card['Adv'] and card['Adv'][0]:
