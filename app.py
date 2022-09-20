@@ -6,6 +6,7 @@ from search import get_by_name
 # Get your bot api token from official telegram bot master: @BotFather
 bot = telebot.TeleBot('API TOKEN')
 
+
 def show_card(message):
     imagename = './cards/' + cards[0][1] + '.jpg'
     img = open(imagename, 'rb')
@@ -43,9 +44,10 @@ def get_card_names(message):
             bot.send_message(message.chat.id, options)
             bot.register_next_step_handler(message, choose_card)
 
-# bot.polling()
-while True:
-    try:
-        bot.polling()
-    except Exception:
-        time.sleep(1)
+
+bot.polling()
+# while True:
+#     try:
+#         bot.polling()
+#     except Exception:
+#         time.sleep(1)
