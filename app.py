@@ -45,9 +45,8 @@ def get_card_names(message):
             bot.register_next_step_handler(message, choose_card)
 
 
-bot.polling()
-# while True:
-#     try:
-#         bot.polling()
-#     except Exception:
-#         time.sleep(1)
+while True:
+    try:
+        bot.polling()
+    except Exception:
+        time.sleep(1)
