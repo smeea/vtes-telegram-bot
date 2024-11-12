@@ -20,24 +20,24 @@ def get_by_name(cardname):
     cards = []
     cardname = cardname.lower()
     for card in crypt:
-        if cardname in card['Name'].lower() or cardname in letters_to_ascii(
-                card['Name'].lower()):
-            name = card['Name']
-            cardimagename = letters_to_ascii(re.sub('[\\W]', '', card['Name'].lower())) + f"g{card['Group']}"
-            if card['New']:
-                name += f" (G{card['Group']})"
+        if cardname in card['name'].lower() or cardname in letters_to_ascii(
+                card['name'].lower()):
+            name = card['name']
+            cardimagename = letters_to_ascii(re.sub('[\\W]', '', card['name'].lower())) + f"g{card['group']}"
+            if card['new']:
+                name += f" (G{card['group']})"
 
-            if card['Adv'] and card['Adv'][0]:
+            if card['adv'] and card['adv'][0]:
                 cardimagename += 'adv'
                 name += ' (ADV)'
 
             cards.append([name, cardimagename])
 
     for card in library:
-        if cardname in card['Name'].lower() or cardname in letters_to_ascii(
-                card['Name'].lower()):
+        if cardname in card['name'].lower() or cardname in letters_to_ascii(
+                card['name'].lower()):
             cardimagename = letters_to_ascii(
-                    re.sub('[\\W]', '', card['Name'].lower()))
-            cards.append([card['Name'], cardimagename])
+                    re.sub('[\\W]', '', card['name'].lower()))
+            cards.append([card['name'], cardimagename])
 
     return cards
