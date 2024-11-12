@@ -9,11 +9,11 @@ def letters_to_ascii(text):
 
 
 with open("cardbase_crypt.json", "r") as crypt_file, open("cardbase_crypt_playtest.json", "r") as crypt_playtest_file:
-    crypt_db = json.load(crypt_file)
+    crypt_db = {**json.load(crypt_file), **json.load(crypt_playtest_file)}
     crypt = list(crypt_db.values())
 
 with open("cardbase_lib.json", "r") as library_file, open("cardbase_lib_playtest.json", "r") as library_playtest_file:
-    library_db = json.load(library_file)
+    library_db = {**json.load(library_file), **json.load(library_playtest_file)}
     library = list(library_db.values())
 
 def get_by_name(cardname):
