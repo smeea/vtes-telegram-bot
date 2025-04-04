@@ -1,11 +1,17 @@
 import telebot
 import time
 import re
+import os
+from dotenv import load_dotenv
 from search import get_by_name
 
-# Get your bot api token from official telegram bot master: @BotFather
-bot = telebot.TeleBot('1255263754:AAGBD5sjzhhRbn3jtHd3V2ht1NlW23iI3RU')
+basedir = os.path.abspath(os.path.dirname(__file__))
+load_dotenv()
 
+# Get your bot api token from official telegram bot master: @BotFather
+API_KEY = os.environ.get('API_KEY') or "mysecretkey1234567890"
+
+bot = telebot.TeleBot(API_KEY)
 
 def show_card(message):
     imagename = './cards/' + cards[0][1] + '.jpg'

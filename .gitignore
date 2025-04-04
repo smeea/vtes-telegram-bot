@@ -2,4 +2,4 @@ __pycache__/
 venv/
 cardbase_crypt_playtest.json
 cardbase_lib_playtest.json
-.flaskenv
+.env

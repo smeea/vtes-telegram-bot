@@ -1,9 +1,9 @@
 [project]
 name = "vtes-telegram-bot"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "VTES Cards Telegram Bot"
 requires-python = ">=3.13"
 dependencies = [
+    "dotenv>=0.9.9",
     "pytelegrambotapi>=4.26.0",
 ]
