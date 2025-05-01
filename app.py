@@ -33,7 +33,7 @@ def choose_card(message):
 @bot.message_handler()
 def get_card_names(message):
     global cards
-    if re.match('[0-9A-Za-z]+', message.text):
+    if re.match('[0-9A-Za-z]{3,}', message.text):
         cards = get_by_name(message.text)
         print(cards)
         if len(cards) == 1:
