@@ -1,1 +1,1507 @@
-{}
+{
+    "173090":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"British Museum, London, The (PT)",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":173090,
+        "name":"British Museum, London, The (PT)",
+        "path":"",
+        "pool":2,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{}
+        },
+        "text":"Unique location.\n+1 hand size. Minions you control can unlock after resolution of a successful action to equip with a non-electronic, non-vehicle, non-weapon equipment card from your hand; a minion can unlock only once this way each turn.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "173091":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Carfax Abbey (PT)",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":173091,
+        "name":"Carfax Abbey (PT)",
+        "path":"",
+        "pool":3,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{}
+        },
+        "text":"Requires a ready Anarch. Unique location. Hunting ground.\nDuring your unlock phase, a ready Anarch you control can gain 1 blood, and, if you control a ready baron, another ready Anarch you control can gain 1 blood as well. A vampire can gain blood from only one hunting ground each turn.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "173092":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Garibaldi-Meucci Museum (PT)",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":173092,
+        "name":"Garibaldi-Meucci Museum (PT)",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{}
+        },
+        "text":"Unique location.\nYou can burn this location and burn 1 pool during your unlock phase to exchange one card from your hand for one card in your ash heap requiring an Anarch. You can lock this location before range is determined to end a combat involving an Anarch you control and another Anarch.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "173093":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Organized Resistance (PT)",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":173093,
+        "name":"Organized Resistance (PT)",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{}
+        },
+        "text":"Requires a baron. Usable by a locked baron.\nAn Anarch you control gets +1 intercept. Also usable to burn 1 blood to unlock a locked Anarch you control; that Anarch attempts to block with +1 intercept, even if intercept is not yet needed.",
+        "twd":0,
+        "type":"Reaction",
+        "v5":false
+    },
+    "173099":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Warrens, The (PT)",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Nosferatu",
+        "conviction":0,
+        "discipline":"",
+        "id":173099,
+        "name":"Warrens, The (PT)",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDN":2
+            }
+        },
+        "text":"Only usable during an action directed at you (or a card you control).\n+2 intercept. During this action, if this Nosferatu is titled, they can burn 1 blood to get an additional +1 intercept .",
+        "twd":0,
+        "type":"Reaction",
+        "v5":false
+    },
+    "173000":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Crush",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Potence",
+        "id":173000,
+        "name":"Crush",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDN":4
+            }
+        },
+        "text":"[pot] Strike: hand strike at +2 damage.\n[POT] Strike: burn equipment.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "173002":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Flick",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Potence",
+        "id":173002,
+        "name":"Flick",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDN":2
+            }
+        },
+        "text":"[pot] Strike: strength+1 ranged damage.\n[POT] Strike: strength+2 ranged damage.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "173003":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Inside Information",
+        "banned":"",
+        "blood":1,
+        "burn":"",
+        "clan":"Nosferatu",
+        "conviction":0,
+        "discipline":"Obfuscate",
+        "id":173003,
+        "name":"Inside Information",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDN":4
+            }
+        },
+        "text":"[obf] +2 stealth action. (D) Bleed.\n[OBF] As above, and if the bleed is successful (for 1 or more), look at the target Methuselah's hand and discard one card of your choice from it.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "173004":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Network Pressure",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Nosferatu",
+        "conviction":0,
+        "discipline":"",
+        "id":173004,
+        "name":"Network Pressure",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDN":2
+            }
+        },
+        "text":"Requires a vampire with capacity 8 or more. Only usable after resolution of a successful action. A vampire can play only one Network Pressure each turn.\nBurn the Edge to unlock this acting vampire or a younger ready locked Nosferatu you control.",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "173005":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Walls Have Eyes, The",
+        "banned":"",
+        "blood":1,
+        "burn":"",
+        "clan":"Nosferatu",
+        "conviction":0,
+        "discipline":"Animalism",
+        "id":173005,
+        "name":"Walls Have Eyes, The",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDN":4
+            }
+        },
+        "text":"[ani] Reduce a bleed against you by 3, to a minimum of 1.\n[ANI] This vampire attempts to block. The acting minion gets -2 stealth. (The acting minion can still increase their stealth.)",
+        "twd":0,
+        "type":"Reaction",
+        "v5":false
+    },
+    "173006":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Web, The",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Nosferatu",
+        "conviction":0,
+        "discipline":"",
+        "id":173006,
+        "name":"Web, The",
+        "path":"",
+        "pool":1,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDN":1
+            }
+        },
+        "text":"Unique location.\nAfter resolution of a successful directed action performed by a Nosferatu you control, you can add 1 counter to this location. During an action, a Nosferatu you control can burn 1 counter from this location to get +1 vote or +1 intercept, or 2 counters from this location to get +1 stealth.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "173007":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Capital Siphoning",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Ventrue",
+        "conviction":0,
+        "discipline":"",
+        "id":173007,
+        "name":"Capital Siphoning",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":1
+            }
+        },
+        "text":"Unique. Requires a titled Camarilla Ventrue.\nSuccessful referendum means this card is put in play and your prey burns 1 pool. During your unlock phase, put 1 counter on this card and steal 1 pool from your prey. Vampires can call a referendum to burn this card as a +1 stealth political action; in that referendum, each counter represents 1 vote in favor of burning the card.",
+        "twd":0,
+        "type":"Political Action",
+        "v5":false
+    },
+    "173008":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Throne Giveth, The Throne Taketh, The",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Ventrue",
+        "conviction":0,
+        "discipline":"",
+        "id":173008,
+        "name":"Throne Giveth, The Throne Taketh, The",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":2
+            }
+        },
+        "text":"Requires a Camarilla vampire.\nChoose up to 5 ready vampires, and choose a Methuselah controlling one of them; for each chosen vampire, choose to have them gain 1 blood or burn 1 blood. Successful referendum means blood is gained or burned as you chose and the chosen Methuselah gains the Edge.",
+        "twd":0,
+        "type":"Political Action",
+        "v5":false
+    },
+    "173009":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Absolute Command",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Dominate & Presence",
+        "id":173009,
+        "name":"Absolute Command",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":2
+            }
+        },
+        "text":"[dom][pre] +2 bleed (limited).\n[DOM][PRE] Only usable during the polling step of a political action. Force a younger vampire to abstain (this can cancel their votes and ballots).",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "173010":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Magnificent Charm",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Presence",
+        "id":173010,
+        "name":"Magnificent Charm",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":2,
+                "NB4PPower":3
+            }
+        },
+        "text":"Only usable before range is determined. A vampire can play only one Magnificent Charm each combat.\n[pre] This round, the opposing minion gets -1 strength.\n[PRE] As above, and this round, hand strikes cannot be used this round (by either combatant).",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "173012":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Naughty List",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Ventrue",
+        "conviction":0,
+        "discipline":"",
+        "id":173012,
+        "name":"Naughty List",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":2
+            }
+        },
+        "text":"Only usable after resolution of a successful action during which a minion played a reaction card or attempted to block.\nPut this card on that minion. The attached minion gets -1 intercept against this Ventrue and -1 vote in referendums called by this Ventrue. A minion can have only one Naughty List.",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "173013":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Political Advisor",
+        "banned":"",
+        "blood":1,
+        "burn":"",
+        "clan":"Ventrue",
+        "conviction":0,
+        "discipline":"",
+        "id":173013,
+        "name":"Political Advisor",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":1
+            }
+        },
+        "text":"Mortal with 1 life.\nYou can lock this retainer to give the employer +1 stealth during a political action or +1 vote during the polling step of a political action. A minion can have only one Political Advisor.",
+        "twd":0,
+        "type":"Retainer",
+        "v5":false
+    },
+    "173014":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Preordained Decree",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Ventrue",
+        "conviction":0,
+        "discipline":"",
+        "id":173014,
+        "name":"Preordained Decree",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":2
+            }
+        },
+        "text":"Only usable during a political action. Only one Preordained Decree can be played each turn.\n+1 stealth. During a referendum this vampire calls, they can burn 1 blood to cancel a reaction card as it is played (cost is still paid).",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "173015":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Tablet of Destiny, The",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":173015,
+        "name":"Tablet of Destiny, The",
+        "path":"",
+        "pool":1,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":1
+            }
+        },
+        "text":"Unique.\nOnce each turn, during an action performed by the bearer, after you draw a card from your library, you can move that card to the bottom of your library.",
+        "twd":0,
+        "type":"Equipment",
+        "v5":false
+    },
+    "173016":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Think Tank",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"Ventrue",
+        "conviction":0,
+        "discipline":"",
+        "id":173016,
+        "name":"Think Tank",
+        "path":"",
+        "pool":1,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":1
+            }
+        },
+        "text":"Unique location.\nDuring your master phase, you can put a political action card [POLITICAL ACTION] from your hand on this location, face down and out of play. Ventrue you control can play cards from this location as if from your hand.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "173017":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"First of the Blood",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":173017,
+        "name":"First of the Blood",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":1
+            }
+        },
+        "text":"Requires a Camarilla vampire.\nChoose a clan and one or more Methuselahs. Successful referendum means each chosen Methuselah controlling a vampire of the chosen clan gains 1 pool, and each chosen Methuselah not controlling a vampire of the chosen clan burns 1 pool; you can burn the Edge to increase the amount by 3 pool for one of the chosen Methuselahs.",
+        "twd":0,
+        "type":"Political Action",
+        "v5":false
+    },
+    "173018":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Will to Prevail, The",
+        "banned":"",
+        "blood":1,
+        "burn":"",
+        "clan":"Ventrue",
+        "conviction":0,
+        "discipline":"",
+        "id":173018,
+        "name":"Will to Prevail, The",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "ToDV":2
+            }
+        },
+        "text":"Only usable after resolution of a blocked action. Only one The Will to Prevail can be played each turn.\nThis vampire continues the action as if unblocked.",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "180000":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Blood Toxin",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Fortitude/Blood Sorcery",
+        "id":180000,
+        "name":"Blood Toxin",
+        "path":"Caine",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCaine":2
+            }
+        },
+        "text":"A vampire can play only one Blood Toxin each round.\n[for] or [tha] Choose a melee weapon this vampire has. Damage from the chosen weapon's strikes is aggravated this round.\n[FOR] or [THA] As above, and this round, the chosen weapon's strikes inflict +1 damage, and cards preventing damage from those strikes cost +1 blood or life to play.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "180001":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Caine's Blessing",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180001,
+        "name":"Caine's Blessing",
+        "path":"Caine",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCaine":2
+            }
+        },
+        "text":"Requires a ready vampire. Only usable at the end of a round during which this vampire successfully inflicted more damage than the opposing minion. A vampire can play only one Caine's Blessing each turn.\nUnlock this vampire.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "180002":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"End Game",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Animalism/Dominate",
+        "id":180002,
+        "name":"End Game",
+        "path":"Caine",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCaine":4
+            }
+        },
+        "text":"[ani] or [dom] (D) Bleed with +1 bleed.\n[ANI] or [DOM] (D) Your prey burns 1 pool for each vampire they have in torpor and/or in their ash heap.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180003":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Spine Club",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180003,
+        "name":"Spine Club",
+        "path":"",
+        "pool":1,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCaine":2
+            }
+        },
+        "text":"Melee weapon. Requires a Sabbat vampire.\nStrike: strength +2 damage. Once each combat, if any damage from this strike is successfully inflicted on an opposing vampire, the bearer gets 1 press, only usable to continue combat.",
+        "twd":0,
+        "type":"Equipment",
+        "v5":false
+    },
+    "180004":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Manifested Armament",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Obfuscate/Blood Sorcery",
+        "id":180004,
+        "name":"Manifested Armament",
+        "path":"Caine",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCaine":2
+            }
+        },
+        "text":"A vampire can play only one Manifested Armament each round.\n[obf] or [tha] [COMBAT] Only usable before range is determined. Equip this vampire with a melee weapon from your hand (requirements and cost apply as normal).\n[OBF] or [THA] [ACTION MODIFIER] Only usable after resolution of a successful action to equip with a melee weapon. Put this card on the weapon. The attached weapon inflicts +1 damage each strike.",
+        "twd":0,
+        "type":"Action Modifier/Combat",
+        "v5":false
+    },
+    "180005":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Samiel's Fury",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Fortitude/Blood Sorcery",
+        "id":180005,
+        "name":"Samiel's Fury",
+        "path":"Caine",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCaine":2
+            }
+        },
+        "text":"Only usable at the end of a round during which the opposing minion successfully inflicted damage on this vampire with a strike. @A vampire can play only one Samiel's Fury each round.@\n[for] or [tha] Inflict 2 damage on the opposing minion.\n[FOR] or [THA] Inflict 3 damage on the opposing minion.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "180010":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Exhibitionism",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Potence/Presence",
+        "id":180010,
+        "name":"Exhibitionism",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":3
+            }
+        },
+        "text":"[pot] or [pre] Reduce a bleed against you by 1. You can move 1 corruption counter from this vampire to the acting minion to reduce the bleed by an additional 2.\n[POT] or [PRE] Only usable during the polling step of a political action. This vampire gets +1 vote. You can move 1 corruption counter from this vampire to a vampire casting votes or ballots in favor to force that other vampire to abstain.",
+        "twd":0,
+        "type":"Reaction",
+        "v5":false
+    },
+    "180011":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Exploiting the Rot",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Dominate/Presence",
+        "id":180011,
+        "name":"Exploiting the Rot",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":4
+            }
+        },
+        "text":"[dom] or [pre] (D) Bleed with +X bleed, where X is the number of corruption counters on this vampire. If the bleed is successful (for 1 or more), burn X-1 of these corruption tokens.\n[DOM] or [PRE] (D) Choose a Methuselah and any number of vampires they control with 1 or more corruption counters. Each chosen vampire burns 1 corruption counter from themselves and their controller burns 1 pool for each corruption counter burned this way.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180012":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Fevered Visions",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Auspex/Blood Sorcery",
+        "id":180012,
+        "name":"Fevered Visions",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":3
+            }
+        },
+        "text":"[aus] or [tha] This vampire gets X+1 intercept, where X is the number of corruption counters on them. If this vampire blocks, burn X-1 of these corruption counters.\n[AUS] or [THA] As above, but if this vampire blocks, move the corruption counters to the acting minion instead of burning them.",
+        "twd":0,
+        "type":"Reaction",
+        "v5":false
+    },
+    "180013":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Swingers Club Hunting Ground",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180013,
+        "name":"Swingers Club Hunting Ground",
+        "path":"Cathari",
+        "pool":2,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":1
+            }
+        },
+        "text":"Unique location. Hunting ground.\nDuring your unlock phase, a ready vampire you control following the Path of Cathari can gain 1 blood and 1 corruption counter. A vampire can gain blood from only one hunting ground each turn.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "180014":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Orgy of the Damned",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180014,
+        "name":"Orgy of the Damned",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":2
+            }
+        },
+        "text":"+1 stealth action.\nEach vampire you control following the Path of Cathari gains 1 blood or 1 corruption counter.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180015":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Satisfying the Beast's Thirst",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180015,
+        "name":"Satisfying the Beast's Thirst",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":2
+            }
+        },
+        "text":"Only usable after resolution of a successful hunt action. @A vampire can play only one Satisfying the Beast's Thirst each turn.@\nThis vampire gains 1 blood and 1 corruption counter and unlocks.",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "180016":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Spreading the Disease",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Fortitude/Obfuscate",
+        "id":180016,
+        "name":"Spreading the Disease",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":4
+            }
+        },
+        "text":"Only usable if a minion attempts to block.\n[for] or [obf] Move 1 corruption counter from this vampire to the blocking minion to give the blocking minion -2 intercept.\n[FOR] or [OBF] As above, but to have that attempt fail; the blocking minion cannot attempt to block this action again.",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "180017":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Subjugation",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Celerity/Potence",
+        "id":180017,
+        "name":"Subjugation",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":3
+            }
+        },
+        "text":"Grapple. Only usable before range is determined. A vampire can play only one Subjugation each combat.\n[cel] or [pot] This round, for each corruption counter each respectively has, this vampire gets +1 strength and the opposing minion gets -1 strength.\n[CEL] or [POT] As above, and if combat would end, you can burn 1 corruption counter from either combatant to start a new round instead.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "180018":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Pull of Desire",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Presence",
+        "id":180018,
+        "name":"Pull of Desire",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":2
+            }
+        },
+        "text":"+1 stealth action.\n[pre] (D) Choose a non-wraith non-zombie ally whose number of corruption counters equals or exceeds their amount of life. \u0016Unlock and take control of the chosen minion until the end of your minion phase. Burn all but 1 corruption counters on the chosen minion after you lose control of them.\n[PRE] (D) As above, but choose a vampire whose number of corruption counters equals or exceeds their amount of blood.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180019":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Unclean",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180019,
+        "name":"Unclean",
+        "path":"Cathari",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PCathari":2
+            }
+        },
+        "text":"Archetype.\nPut 1 corruption counter and this card on a Sabbat vampire. Once each turn, this vampire can gain 1 blood after performing a successful action during which 1 or more corruption counters were put on a minion. A vampire can have only one archetype.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "180020":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Draining Touch",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Oblivion/Blood Sorcery",
+        "id":180020,
+        "name":"Draining Touch",
+        "path":"Death and the Soul",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":3
+            }
+        },
+        "text":"\n[obl] or [tha] Strike: steal 1 blood or life (becoming blood). Any amount of blood stolen this way can be moved to a wraith or zombie ally you control instead, not to exceed their starting life.\n[OBL] or [THA] As above, but strike: steal 2 blood or life.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "180021":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Downward Spiral",
+        "banned":"",
+        "blood":1,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180021,
+        "name":"Downward Spiral",
+        "path":"Death and the Soul",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":3
+            }
+        },
+        "text":"+1 stealth action. Unique ritual.\nThis ritual enters play with 1 ritual counter. During your unlock phase, for each ritual counter on this card, your prey burns 1 pool, 1 blood from a vampire they control or the top card of their library. Methuselahs can burn a vampire they control during their master phase to burn this card.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180022":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Emissary of Erebus",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180022,
+        "name":"Emissary of Erebus",
+        "path":"Death and the Soul",
+        "pool":2,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":3
+            }
+        },
+        "text":"Unique wraith with 2 life, 1 strength. 1 bleed.\nThis ally can play a card requiring Path of Death and the Soul and/or Oblivion [obl] as a vampire.",
+        "twd":0,
+        "type":"Ally",
+        "v5":false
+    },
+    "180023":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Initiation Rite",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180023,
+        "name":"Initiation Rite",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":2
+            }
+        },
+        "text":"+1 stealth action.\nChoose a Discipline this vampire has at the superior level and another ready vampire you control following the same Path as them. Put this card on the chosen vampire. The attached vampire gets +1 level of the chosen Discipline.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180024":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Rigidity",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Fortitude/Oblivion",
+        "id":180024,
+        "name":"Rigidity",
+        "path":"Death and the Soul",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":3
+            }
+        },
+        "text":"Only usable before range is determined.\n[for] or [obl] This combat, the opposing minion cannot maneuver, cannot press, or cannot use additional strikes (choose one).\n[FOR] or [OBL] As above, but usable by a ready vampire other than a combatant you control.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "180025":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Sacrificial Offering",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Oblivion/Blood Sorcery",
+        "id":180025,
+        "name":"Sacrificial Offering",
+        "path":"Death and the Soul",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":3
+            }
+        },
+        "text":"[obl] or [tha] Burn a wraith or zombie ally you control to get +1 bleed (limited). If that ally would go to the ash heap, you can move it to the bottom of your library instead.\n[OBL] or [THA] As above, but for +2 bleed (limited).",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "180026":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Shovelhead",
+        "banned":"",
+        "blood":2,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180026,
+        "name":"Shovelhead",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":2
+            }
+        },
+        "text":"+1 stealth action. Requires a non-sterile titled Sabbat vampire.\nPut this card in play. It becomes a 1-capacity (non-unique) Sabbat vampire of the same clan and path as the acting vampire and must hunt this turn. You can search your library (shuffle afterward), hand and/or ash heap for a Discipline master card and put it on this new vampire.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180027":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Tear the World Asunder",
+        "banned":"",
+        "blood":1,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Oblivion/Blood Sorcery",
+        "id":180027,
+        "name":"Tear the World Asunder",
+        "path":"Death and the Soul",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":3
+            }
+        },
+        "text":"+1 stealth action. Unique ritual.\n[obl] or [tha] If the number of ritual counters on this card equals or exceeds the number of Methuselahs in the game, burn this card and each Methuselah burns 2 pool. Vampires with Blood Sorcery [tha] or Oblivion [obl] can burn this card as a (D) action that costs 1 blood for each ritual counter on this card.\n[OBL] or [THA] As above, but for 3 pool, and you can choose to burn blood from vampires you control instead of burning your pool.",
+        "twd":0,
+        "type":"Action",
+        "v5":false
+    },
+    "180028":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Void Chamber",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180028,
+        "name":"Void Chamber",
+        "path":"Death and the Soul",
+        "pool":1,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PDeath":1
+            }
+        },
+        "text":"Unique location.\nPut this card in play. During an action to put a ritual in play or to put a ritual counter on a card you control, you can lock this card to give an acting vampire you control +1 stealth or to unlock them after action resolution.",
+        "twd":0,
+        "type":"Master",
+        "v5":false
+    },
+    "180030":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Blessed are the Faithful",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180030,
+        "name":"Blessed are the Faithful",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PPower":2
+            }
+        },
+        "text":"Requires a titled Sabbat vampire.\nChoose a Sabbat path. Successful referendum means each Methuselah gains 1 pool for each vampire they control following the chosen path.",
+        "twd":0,
+        "type":"Political Action",
+        "v5":false
+    },
+    "180031":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Irrepressible Stance",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Potence/Protean",
+        "id":180031,
+        "name":"Irrepressible Stance",
+        "path":"Power and the Inner Voice",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PPower":3
+            }
+        },
+        "text":"Only usable before range is determined. A vampire can play only one Irrepressible Stance each round.\n[pot] or [pro] This round, this vampire gets 1 optional maneuver, only usable to get to close range, and 1 optional press, only usable to continue combat.\n[POT] or [PRO] As above, and this round, the opposing minion cannot play grapple or aim cards.",
+        "twd":0,
+        "type":"Combat",
+        "v5":false
+    },
+    "180032":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Jagged Scimitar",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180032,
+        "name":"Jagged Scimitar",
+        "path":"",
+        "pool":1,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PPower":3
+            }
+        },
+        "text":"Melee weapon.\nStrike: strength +2 damage.\nStrike: dodge, only usable once each combat.",
+        "twd":0,
+        "type":"Equipment",
+        "v5":false
+    },
+    "180033":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Marked for Final Death",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180033,
+        "name":"Marked for Final Death",
+        "path":"Power and the Inner Voice",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PPower":2
+            }
+        },
+        "text":"Choose a ready younger vampire. Successful referendum means this card is put on the chosen vampire; you still control this card. Sabbat vampires can enter combat with the attached vampire as a (D) action. After the attached vampire is burned, their controller burns 2 pool and you gain 2 pool. Vampires can call a referendum to burn this card as a +1 stealth political action. A vampire can have only one Marked For Death.",
+        "twd":0,
+        "type":"Political Action",
+        "v5":false
+    },
+    "180034":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Paladin",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"",
+        "id":180034,
+        "name":"Paladin",
+        "path":"",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PPower":2
+            }
+        },
+        "text":"Requires a titled Sabbat vampire.\nChoose a ready Sabbat vampire you control. Successful referendum means you put this card on the chosen vampire and you can equip the chosen vampire with a melee weapon from your hand. If another titled Sabbat vampire you control would be blocked, this attached vampire can lock to cancel the combat, unlock the acting vampire and enter combat with the blocking minion instead. A vampire can have only one Paladin.",
+        "twd":0,
+        "type":"Political Action",
+        "v5":false
+    },
+    "180035":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Undead Magnificence",
+        "banned":"",
+        "blood":0,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Potence/Presence",
+        "id":180035,
+        "name":"Undead Magnificence",
+        "path":"Power and the Inner Voice",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PPower":4
+            }
+        },
+        "text":"Only usable as the action is announced.\n[pot] or [pre] This vampire gets +1 vote and +1 strength this action.\n[POT] or [PRE] This vampire gets +2 vote and +2 strength this action.",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    },
+    "180036":{
+        "aka":"",
+        "artist":[
+            ""
+        ],
+        "ascii":"Unholy Aegis",
+        "banned":"",
+        "blood":1,
+        "burn":"",
+        "clan":"",
+        "conviction":0,
+        "discipline":"Dominate/Presence",
+        "id":180036,
+        "name":"Unholy Aegis",
+        "path":"Power and the Inner Voice",
+        "pool":0,
+        "requirement":"",
+        "rulings":[],
+        "set":{
+            "playtest":{
+                "NB4PPower":4
+            }
+        },
+        "text":"Only usable as the action is announced.\n[dom] or [pre] Once this action, allies blocking this vampire are burned before block resolution.\n[DOM] or [PRE] As above, and once this action, vampires blocking this vampire burn 2 blood before block resolution.",
+        "twd":0,
+        "type":"Action Modifier",
+        "v5":false
+    }
+}
